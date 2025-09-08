@@ -1,0 +1,30 @@
+{
+  "editor.formatOnSave": true,
+  "latex-workshop.latex.autoClean.run": "onBuilt",
+  "latex-workshop.latex.autoBuild.run": "onSave",
+  "latex-workshop.linting.chktex.enabled": true,
+  "latex-workshop.formatting.latex": "tex-fmt",
+  "latex-workshop.latex.build.forceRecipeUsage": false,
+  "latex-workshop.latex.tools": [
+    {
+      "name": "lualatexmk",
+      "command": "latexmk",
+      "args": [
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-file-line-error",
+        "-lualatex",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+  ],
+  "latex-workshop.latex.recipes": [
+    {
+      "name": "LuaLaTeX (latexmk)",
+      "tools": [
+        "lualatexmk"
+      ]
+    }
+  ],
+}
