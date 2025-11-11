@@ -4,7 +4,7 @@
   "latex-workshop.latex.autoBuild.run": "onSave",
   "latex-workshop.linting.chktex.enabled": true,
   "latex-workshop.formatting.latex": "tex-fmt",
-  "latex-workshop.latex.build.forceRecipeUsage": false,
+  "latex-workshop.latex.build.forceRecipeUsage": true,
   "latex-workshop.latex.tools": [
     {
       "name": "lualatexmk",
