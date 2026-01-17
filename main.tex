@@ -2,17 +2,24 @@
 \usepackage{fontspec}
 \usepackage{graphicx}
 \usepackage{biblatex}
+\usepackage{plantuml}
 \addbibresource{references.bib}
 
 \begin{document}
-\include{sections/titlepage}
-\include{sections/abstract}
+
+% Frontpage and abstract
+\include{sections/-1_titlepage}
+\include{sections/0_abstract}
 \tableofcontents
-\include{sections/introduction}
-\include{sections/stateoftheart}
-\include{sections/methodology}
-\include{sections/implementation}
-\include{sections/discussion}
-\include{sections/conclusion}
+
+% Content Section
+\include{sections/1_introduction}
+\include{sections/2_technicalbackground}
+\include{sections/3_systemdesign}
+\include{sections/4_implementation}
+\include{sections/5_evaluation}
+\include{sections/6_conclusion}
+
+% Bibliography
 \printbibliography
 \end{document}
