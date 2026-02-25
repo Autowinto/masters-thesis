@@ -1,0 +1,127 @@
+%% Creator: Inkscape 1.4.3 (0d15f75, 2025-12-25), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'sv-post-redis_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{608.25bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.63008631)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.7053021,0.45252774){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Subscribes to...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.57336621,0.34032059){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Subscribes\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.64734895,0.55487053){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Fetches Files for processing\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.86313194,0.51294698){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{Timeline Service}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.46362515){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.9001233,0.46362515){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.40937115){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.86313194,0.35265105){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{QAndA Service}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.30332922){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.9001233,0.30332922){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.24907522){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 3\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.11097411,0.60665845){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Task\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.56966708){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}task_id: uuid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.53267571){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}type: qanda | timeline  \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.49568434){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}resource_ref: ResourceRef\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.45869297){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}case_id: uuid\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.4217016){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}progress: Progress\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.11097411,0.36004932){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}ResourceRef\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.32305795){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}type: file | event | qanda...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.00739827,0.28606658){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}ref: file_path | mongo_id \end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.31196054,0.35758323){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Fetches files...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.31442663,0.18742293){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Backend\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.11097411,0.18742293){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Frontend\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.31442663,0.03082614){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Mongo\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.31442663,0.55117139){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Navision\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.31689273,0.14426634){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Indexes...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=27]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.41430333,0.18742293){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Adds task to...\end{tabular}}}}%
+    \put(0.70406905,0.2946979){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Subscribes to...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=28]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.86313194,0.19235512){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}\textbf{X Service}\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=29]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.14303329){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 1\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=30]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.9001233,0.14303329){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 2\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=31]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.82367448,0.08877928){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Worker 3\end{tabular}}}}%
+    \put(0.69913687,0.13070284){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Subscribes to...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=32]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.62885327,0.04562269){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Workers place preliminary work in database...\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=33]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.41307028,0.34032059){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}Redis\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=34]{sv-post-redis_svg-tex.pdf}}%
+    \put(0.47472256,0.49568434){\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}- Allows decoupled logic...\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

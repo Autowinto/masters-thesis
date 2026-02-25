@@ -1,17 +1,25 @@
 \section{Introduction}
-\subsection{Problem Statement}
-A leading Danish law firm, henceforth referred to, as \"the company\", specializing in personal injury cases. The firm has a “no cure, no pay” policy, meaning that legal fees are only collected upon a succesful outcome. This necessitates efficient, and early case analysis to minimize time spent vetting potential cases.
+A leading danish law firm, henceforth referred to, as \"the company\", specializing in personal injury cases. The firm has a “no cure, no pay” policy, meaning that legal fees are only collected upon a succesful outcome. This necessitates efficient, and early case analysis to minimize time spent vetting potential cases.
 
 The company is currently experimenting with automated solutions for case assessment, including identification of significant events and questions that could affect the probability of winning the case. This forms the basis of the currently implemented case assessment system. Additionally, data is available from an internal system called legal system, which has answers to general questions, e.g\. date of injury, responsible lawyer and such. Still, vetting and identifying winnable legal cases has a high up-front cost in the vetting process.
 
-\subsection{Motivaton}
+% Motivation
+The manual vetting of personal injury cases involves a significant up-front cost due to the intensive labor required to analyze unstructured legal materials. Because the company operates on a ``no cure, no pay basis'', any time spent on cases that are ultimately non-winnable represents a direct financial loss. There is a critical need to augment current automated experiments with advanced AI reasoning to provide lawyers with faster, more accurate, and explainable insights during the early assessment phase.
 
-\subsection{Objective}
-
-\subsection{Research Questions}
+% Objective
+The primary objective of this thesis is to explore the usability of classification models together with structured data, to perform assessments on personal injury legal cases, and as such provide personal injury lawyers at the company with tooling, improving their workflow. Specifically, the project aims to:
 \begin{itemize}
-  \item RQ1 \- How can structured data from an existing case assessment system be integrated with AI reasoning and prediction model outputs to reduce the time and effort required for early case assessment?
-  \item RQ2 \- What are effective strategies for matching AI-generated reasoning to relevant segments of unstructured legal case material?
-  \item RQ3 \- How does fine-tuning on newly curated datasets annotated usage data from legal experts compare to using pre-existing internal datasets such as KLA Nova in terms of model performance, usability and explainable, well-supported outputs in legal decision-making context?
-  \item RQ4 \- Which explainability frameworks or techniques best communicate how AI reasoning and predictions are derived from internal datasets, in order to support user confidence and accountability in early case assessment tools?
+  \item Implement a binary classification model to predict case outcomes.
+  \item Utilize SHAP (SHapley Additive exPlanations) to extract token-level semantics from legal documents.
+  \item Convert technical model outputs into human-readable legal reasoning using a reasoning model.
+  \item Evaluate the performance and usability of fine-tuned models compared to internal datasets like KLA Nova to ensure accountability in legal decision-making
+\end{itemize}
+
+% Research Questions
+With this as a basis, the following research questions are defined:
+\begin{itemize}
+  \item \textbf{RQ1} \- How can structured data from an existing case assessment system be integrated with AI reasoning and prediction model outputs to reduce the time and effort required for early case assessment?
+  \item \textbf{RQ2} \- What are effective strategies for matching AI-generated reasoning to relevant segments of unstructured legal case material?
+  \item \textbf{RQ3} \- How does fine-tuning on newly curated datasets annotated usage data from legal experts compare to using pre-existing internal datasets such as KLA Nova in terms of model performance, usability and explainable, well-supported outputs in legal decision-making context?
+  \item \textbf{RQ4} \- Which explainability frameworks or techniques best communicate how AI reasoning and predictions are derived from internal datasets, in order to support user confidence and accountability in early case assessment tools?
 \end{itemize}

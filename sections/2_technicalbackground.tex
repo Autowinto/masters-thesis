@@ -1,19 +1,35 @@
 \section{Technical Background}
 \subsection{State of the Art}
 \begin{itemize}
-  \item LegalTech classification models
   \item LegalTech case assessment systems
 \end{itemize}
 
+% Other LegalTech classification models.
+% Other LegalTech case assessment systems.
+
+
 Predicting whether a case can be won initially, requires the use of a classification model. Classification models are supervised machine learning tools, enabling sorting of data into several categories, labels or simply yes and no, based on certain patterns provided from labeled data. Labeled data in the case of LegalTech personal injury case estimation, would be all the data that a lawyer typically uses to come to a conclusion, with the addition of a label specifying whether the case was won or not. Based on this, a classification model is trained or fine-tuned.
 
+% Binary classification
 There are several types of classification models. Three of the most commmon types are binary classification models, multi-class classification models and the multi-label classification models. The focus of this thesis will be on binary classification models, as winning a case or not winning a case is a binary matter.
 
-Skriv hvad fine-tuning er og hvad fordele kan være over at træne egen model fra bunden.
+% SHAP and how it functions.
 
+
+% What is fine-tuning and why aren't we training a model from scratch?
+
+% Danish legal environment has very specific language. Will internationally-based classification models understand this?
 Another challenge is the legal language. Fine-tuning on a base classification model is a good start, however,
 
+% Calculation of certainty. What's a fair way to weight certain tokens? 
 Noget med forskellige teorier ift. beregning af certainty.
 
-\subsection{AI Fairness}
-There's also the issue of fairness, especially when performing classifications.
+% AI fairness
+There's also the issue of fairness, especially in the legal context. AI has certain issues of hallucinations.
+
+Demographic Parity?\footcite{del_bue_fairness_2025}
+%   Data bias. Historical. How do we check datasets for skewed bias. Underreporting? Minorities?
+
+% Explain how we can overcome some of these biases. Algorithmic transparency. SHAP shows proper weights.
+
+% How do we mititage lawyers becoming overly reliant on the system? We don't want them to only rely on the score. 

@@ -17,8 +17,10 @@
         "-lualatex",
         "%DOC%"
       ],
-      "env": {}
-    }
+      "env": {
+        "PATH": "/Library/TeX/texbin:/usr/local/bin:/opt/homebrew/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Inkscape.app/Contents/MacOS"
+      },
+    },
   ],
   "latex-workshop.latex.recipes": [
     {
@@ -28,4 +30,5 @@
       ]
     }
   ],
+  ""
 }
